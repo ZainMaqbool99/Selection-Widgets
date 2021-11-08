@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <Button
+        android:id="@+id/btnSimpleList"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Simple List">
+    </Button>
+
+    <Button
+        android:id="@+id/btnSpinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Spinner">
+    </Button>
+
+    <Button
+        android:id="@+id/btnGridView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Grid View">
+    </Button>
+
+    <Button
+        android:id="@+id/btnAutoComplete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Auto Complete Text View">
+    </Button>
+
+    <Button
+        android:id="@+id/btnGalley"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Gallery">
+    </Button>
+
+</LinearLayout>
